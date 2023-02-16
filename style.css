@@ -1,0 +1,112 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: #1f2937; /* TODO: Change so each section background color extends to the edges */
+    padding: 0px 64px;
+}
+
+header {
+    background-color: #1f2937;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+
+.title1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+
+.header-container {
+    display: flex;
+    max-height: 300px;
+    align-self: center;
+    gap: 16px;
+    flex: auto;
+}
+
+.image-container {
+    flex: 1 1 0;
+}
+
+.header-sub1 {
+    flex: 1 1 0;
+}
+.section1 {
+    background-color: white;
+    height: 300px;
+    padding: 24px;
+    text-align: center;
+}
+
+.section1-container {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.text2 {
+    color: grey;
+}
+
+.info {
+    max-width: 160px;
+}
+.info > img {
+    border-radius: 8px;
+    border-color: #3882f6;
+    border-width: 4px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+a, .text1 {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text1 {
+    margin: 12px 0px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FaF8;
+    border-width: 0px;
+    padding: 8px 48px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
