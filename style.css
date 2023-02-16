@@ -110,3 +110,27 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+.section2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 96px;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author-text {
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 32px;
+}
